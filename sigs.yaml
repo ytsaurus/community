@@ -1,0 +1,195 @@
+repos:
+  ytsaurus: https://github.com/ytsaurus/ytsaurus
+  k8s: https://github.com/ytsaurus/yt-k8s-operator
+  ui: https://github.com/ytsaurus/ytsaurus-ui
+  tf-provider: https://github.com/ytsaurus/terraform-provider-ytsaurus
+people:
+  zlobober:
+    name: Maxim Akhmedov
+    affiliation: Nebius
+  savnadya:
+    name: Nadezhda Savchenko
+    affiliation: Yandex
+  psushin:
+    name: Pavel Sushin
+    affiliation: Yandex
+  amrivkin:
+    name: Andrey Rivkin
+    affiliation: Yandex
+  gritukan:
+    name: Grigory Reznikov
+    affiliation: Nebius
+  kontakter:
+    name: Ignat Kolesnichenko
+    affiliation: Yandex
+  achulkov2:
+    name: Andrey Chulkov
+    affiliation: Nebius
+  dim-an:
+    name: Dmitry Ermolov
+    affiliation: Yandex
+  dimaskovas:
+    name: Dmitry Kovalkov
+    affiliation: Yandex
+  alextokarew:
+     name: Alex Tokarev
+     affiliation: Yandex
+  verytable:
+    name: Arseniy Balobanov
+    affiliation: Yandex
+  ma-efremoff:
+    name: Maxim Efremov
+    affiliation: Yandex
+  andozer:
+    name: Andrey Grunau
+    affiliation: Yandex
+  maxim-babenko:
+    name: Maxim Babenko
+    affiliation: Yandex
+  savrus:
+    name: Ruslan Savchenko
+    affiliation: Yandex
+  ifsmirnov:
+    name: Ivan Smirnov
+    affiliation: Yandex
+  eshcherbin:
+    name: Egor Shcherbin
+    affiliation: Yandex
+  raundn:
+    name: Amir Shakurov
+    affiliation: Yandex
+sigs:
+  - name: k8s
+    scope: K8s operator, deployment best practices (managed/bare metal), load balancing
+    primary_repo: k8s
+    tags: []
+    chairs:
+      - gritukan
+      - zlobober
+      - savnadya
+      - psushin
+  - name: query-tracker
+    scope: SQL queries interface (incl. UI and SDKs), YQL
+    primary_repo: ytsaurus
+    tags:
+      - query tracker
+    chairs:
+      - psushin
+      - zlobober
+      - amrivkin
+  - name: marketing
+    scope: Marketing, community management, events
+    primary_repo: null
+    tags: []
+    chairs:
+      - zlobober
+      - psushin
+      - gritukan
+      - kontakter 
+      - amrivkin
+  - name: ci-cd-devtools
+    scope: CI/CD, build systems, Docker layer management, Github actions, integration tests
+    primary_repo: ytsaurus
+    tags:
+      - devtools
+    chairs:
+      - zlobober
+      - kontakter
+      - savnadya
+  - name: queues
+    scope: Queues (aka ordered dynamic tables), queue agent, data ingestion
+    primary_repo: ytsaurus
+    tags:
+      - queues
+    chairs:
+      - zlobober
+      - achulkov2
+      - savnadya
+      - dim-an
+  - name: chyt
+    scope: CHYT (aka ClickHouse over YT), Strawberry (vanilla operation controller), JupYT (Jupyter over YT)
+    primary_repo: ytsaurus
+    tags:
+      - CHYT
+    chairs:
+      - zlobober
+      - psushin
+      - amrivkin
+      - dimaskovas
+  - name: spyt
+    scope: SPYT (aka Spark over YT)
+    primary_repo: ytsaurus
+    tags:
+      - SPYT
+    chairs:
+      - zlobober
+      - psushin
+      - amrivkin
+      - alextokarew
+  - name: map-reduce
+    scope: MapReduce, YT scheduler, controller agents, exe-nodes, job environments (incl. CRI), GPU jobs
+    primary_repo: ytsaurus
+    tags:
+      - mapreduce
+      - CRI
+    chairs:
+      - zlobober
+      - psushin
+      - kontakter
+      - gritukan
+      - eshcherbin
+  - name: sdk
+    scope: SDKs (Python, Go, Java, C++), terraform provider
+    primary_repo: ytsaurus
+    tags:
+      - SDK
+    chairs:
+      - kontakter
+      - savnadya
+      - dim-an
+      - verytable
+  - name: ui
+    scope: Web UI, UX, design
+    primary_repo: ui
+    tags: []
+    chairs:
+      - ma-efremoff
+      - amrivkin
+      - zlobober
+  - name: docs
+    scope: Documentation
+    primary_repo: ytsaurus
+    tags:
+      - documentation
+    chairs:
+      - amrivkin
+      - andozer
+  - name: dynamic-tables
+    scope: Dynamic tables, replicated dynamic tables, dynamic table QL, chaos
+    primary_repo: ytsaurus
+    tags:
+      - dynamic tables
+    chairs:
+      - gritukan
+      - savrus
+      - maxim-babenko
+      - ifsmirnov
+  - name: master
+    scope: Masters, Hydra
+    primary_repo: ytsaurus
+    tags:
+      - master
+    chairs:
+      - gritukan
+      - maxim-babenko
+      - raundn
+  - name: steering
+    scope: High-level decision making and governance, dispute resolution
+    primary_repo: null
+    tags: []
+    chairs:
+      - zlobober
+      - psushin
+      - kontakter 
+      - amrivkin
+      - maxim-babenko
