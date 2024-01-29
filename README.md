@@ -38,6 +38,6 @@ Currently, all YTsaurus SIGs are private and are by invitation from chairs only.
 
 A good way to become a member of a SIG is to start contributing to the SIG's subproject. Have a look at the list of open issues in one of our repositories; issues marked with the `help wanted` label are a good place to start. If you managed to make a few contributions and would like to become a member of the SIG, or you have other solid reasons to join the SIG, please contact one of the SIG's chairs. Also, do not hesitate to discuss your ideas and proposals in one of our public community chats:
 
+* https://t.me/ytsaurus (English)
 * https://t.me/ytsaurus_ru (Russian)
-* https://t.me/ytsaurus_en (English)
 
