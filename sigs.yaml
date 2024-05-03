@@ -58,6 +58,9 @@ people:
   raundn:
     name: Amir Shakurov
     affiliation: Yandex
+  drino:
+    name: Andrei Bodrov
+    affiliation: Yandex
 sigs:
   - name: k8s
     scope: K8s operator, deployment best practices (managed/bare metal), load balancing
@@ -183,6 +186,16 @@ sigs:
       - gritukan
       - maxim-babenko
       - raundn
+  - name: ml-infra
+    scope: Streaming data to ML Jobs, Tracking Experiments, Checkpointing
+    primary_repo: ytsaurus
+    tags:
+      - ml infra
+    chairs:
+      - zlobober
+      - gritukan
+      - kontakter
+      - drino
   - name: steering
     scope: High-level decision making and governance, dispute resolution
     primary_repo: null
