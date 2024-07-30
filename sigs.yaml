@@ -1,6 +1,6 @@
 repos:
   ytsaurus: https://github.com/ytsaurus/ytsaurus
-  k8s: https://github.com/ytsaurus/yt-k8s-operator
+  k8s: https://github.com/ytsaurus/ytsaurus-k8s-operator
   ui: https://github.com/ytsaurus/ytsaurus-ui
   tf-provider: https://github.com/ytsaurus/terraform-provider-ytsaurus
 people:
