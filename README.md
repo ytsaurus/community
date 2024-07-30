@@ -9,9 +9,10 @@ This document describes the process, under which the YTsaurus is developed. Use 
 Currently, there are following repositories within YTsaurus community:
 
 * [ytsaurus](https://github.com/ytsaurus/ytsaurus) – the main repository, which contains the server-side code of YTsaurus and official SDKs.
+* [ytsaurus-cpp-sdk](https://github.com/ytsaurus/ytsaurus-cpp-sdk) - the C++ SDK for YTsaurus.
 * [ytsaurus-ui](https://github.com/ytsaurus/ytsaurus-ui) – the UI repository
-* [yt-k8s-operator](https://github.com/ytsaurus/yt-k8s-operator) – the Kubernetes operator for YTsaurus
-* [terraform-provider-ytsaurus](https://github.com/ytsaurus/terraform-provider-ytsaurus) — the Terraform provider for YTsaurus
+* [ytsaurus-k8s-operator](https://github.com/ytsaurus/ytsaurus-k8s-operator) – the Kubernetes operator for YTsaurus
+* [ytsaurus-terraform-provider](https://github.com/ytsaurus/ytsaurus-terraform-provider) — the Terraform provider for YTsaurus
 
 ## Governance
 
